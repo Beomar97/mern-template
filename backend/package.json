@@ -1,0 +1,33 @@
+{
+  "name": "mern-template",
+  "version": "1.0.0",
+  "description": "template structure for a MERN stack project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beomar97/mern-template.git"
+  },
+  "author": "Marco Forster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beomar97/mern-template/issues"
+  },
+  "homepage": "https://github.com/Beomar97/mern-template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
